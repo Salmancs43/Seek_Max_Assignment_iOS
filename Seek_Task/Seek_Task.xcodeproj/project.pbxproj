@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7041C2A42C6B8DF5002ACDCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2A32C6B8DF5002ACDCB /* AppDelegate.swift */; };
+		7041C2A62C6B8DF5002ACDCB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2A52C6B8DF5002ACDCB /* SceneDelegate.swift */; };
+		7041C2AD2C6B8DF7002ACDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7041C2AC2C6B8DF7002ACDCB /* Assets.xcassets */; };
+		7041C2B02C6B8DF7002ACDCB /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 7041C2AF2C6B8DF7002ACDCB /* Base */; };
+		7041C2BB2C6B8DF7002ACDCB /* Seek_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2BA2C6B8DF7002ACDCB /* Seek_TaskTests.swift */; };
+		7041C2C52C6B8DF7002ACDCB /* Seek_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2C42C6B8DF7002ACDCB /* Seek_TaskUITests.swift */; };
+		7041C2C72C6B8DF7002ACDCB /* Seek_TaskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2C62C6B8DF7002ACDCB /* Seek_TaskUITestsLaunchTests.swift */; };
+		7041C2D62C6B8E30002ACDCB /* MainCoordinating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2D32C6B8E30002ACDCB /* MainCoordinating.swift */; };
+		7041C2D72C6B8E30002ACDCB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2D42C6B8E30002ACDCB /* MainCoordinator.swift */; };
+		7041C2DA2C6B8E39002ACDCB /* Color++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2D82C6B8E39002ACDCB /* Color++.swift */; };
+		7041C2DE2C6B8E40002ACDCB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2DB2C6B8E40002ACDCB /* LoginViewController.swift */; };
+		7041C2DF2C6B8E40002ACDCB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2DC2C6B8E40002ACDCB /* LoginViewModel.swift */; };
+		7041C2E22C6B93A0002ACDCB /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2E12C6B93A0002ACDCB /* LoginTextField.swift */; };
+		7041C2E42C6B947C002ACDCB /* UIView++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2E32C6B947C002ACDCB /* UIView++.swift */; };
+		7041C2E72C6E09E3002ACDCB /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2E62C6E09E3002ACDCB /* TabbarViewController.swift */; };
+		7041C2EA2C6E0A33002ACDCB /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2E92C6E0A33002ACDCB /* JobsViewController.swift */; };
+		7041C2EC2C6E0BAD002ACDCB /* JobsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2EB2C6E0BAD002ACDCB /* JobsViewModel.swift */; };
+		7041C2EF2C6E0D72002ACDCB /* NetworkServicing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2EE2C6E0D72002ACDCB /* NetworkServicing.swift */; };
+		7041C2F12C6E0D8D002ACDCB /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2F02C6E0D8D002ACDCB /* NetworkService.swift */; };
+		7041C2F52C6E0E1C002ACDCB /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7041C2F42C6E0E1C002ACDCB /* Alamofire */; };
+		7041C2FB2C6E0F3E002ACDCB /* URLConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2FA2C6E0F3E002ACDCB /* URLConfiguration.swift */; };
+		7041C2FE2C6E3DDD002ACDCB /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2FD2C6E3DDD002ACDCB /* LoginModel.swift */; };
+		7041C3002C6F18F0002ACDCB /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C2FF2C6F18F0002ACDCB /* Observable.swift */; };
+		7041C3032C6F1B3A002ACDCB /* JobsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C3022C6F1B3A002ACDCB /* JobsModel.swift */; };
+		7041C3062C6F1E86002ACDCB /* Authenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C3052C6F1E86002ACDCB /* Authenticator.swift */; };
+		7041C3092C6F20BA002ACDCB /* JobsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C3082C6F20BA002ACDCB /* JobsTableViewCell.swift */; };
+		7041C30E2C6F51C0002ACDCB /* Colors++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C30D2C6F51C0002ACDCB /* Colors++.swift */; };
+		7041C3112C6F58B2002ACDCB /* JobDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C3102C6F58B2002ACDCB /* JobDetailViewController.swift */; };
+		7041C3132C6F58C2002ACDCB /* JobDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C3122C6F58C2002ACDCB /* JobDetailViewModel.swift */; };
+		7041C3152C6F5E16002ACDCB /* JobsRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7041C3142C6F5E16002ACDCB /* JobsRequestModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7041C2B72C6B8DF7002ACDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7041C2982C6B8DF5002ACDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7041C29F2C6B8DF5002ACDCB;
+			remoteInfo = Seek_Task;
+		};
+		7041C2C12C6B8DF7002ACDCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7041C2982C6B8DF5002ACDCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7041C29F2C6B8DF5002ACDCB;
+			remoteInfo = Seek_Task;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7041C2F92C6E0E1F002ACDCB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7041C2A02C6B8DF5002ACDCB /* Seek_Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seek_Task.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041C2A32C6B8DF5002ACDCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7041C2A52C6B8DF5002ACDCB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7041C2AC2C6B8DF7002ACDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7041C2AF2C6B8DF7002ACDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7041C2B12C6B8DF7002ACDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7041C2B62C6B8DF7002ACDCB /* Seek_TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Seek_TaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041C2BA2C6B8DF7002ACDCB /* Seek_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seek_TaskTests.swift; sourceTree = "<group>"; };
+		7041C2C02C6B8DF7002ACDCB /* Seek_TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Seek_TaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7041C2C42C6B8DF7002ACDCB /* Seek_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seek_TaskUITests.swift; sourceTree = "<group>"; };
+		7041C2C62C6B8DF7002ACDCB /* Seek_TaskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seek_TaskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7041C2D32C6B8E30002ACDCB /* MainCoordinating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinating.swift; sourceTree = "<group>"; };
+		7041C2D42C6B8E30002ACDCB /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		7041C2D82C6B8E39002ACDCB /* Color++.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
+		7041C2DB2C6B8E40002ACDCB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7041C2DC2C6B8E40002ACDCB /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7041C2E12C6B93A0002ACDCB /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		7041C2E32C6B947C002ACDCB /* UIView++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView++.swift"; sourceTree = "<group>"; };
+		7041C2E62C6E09E3002ACDCB /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		7041C2E92C6E0A33002ACDCB /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
+		7041C2EB2C6E0BAD002ACDCB /* JobsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewModel.swift; sourceTree = "<group>"; };
+		7041C2EE2C6E0D72002ACDCB /* NetworkServicing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServicing.swift; sourceTree = "<group>"; };
+		7041C2F02C6E0D8D002ACDCB /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		7041C2FA2C6E0F3E002ACDCB /* URLConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLConfiguration.swift; sourceTree = "<group>"; };
+		7041C2FD2C6E3DDD002ACDCB /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		7041C2FF2C6F18F0002ACDCB /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		7041C3022C6F1B3A002ACDCB /* JobsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsModel.swift; sourceTree = "<group>"; };
+		7041C3052C6F1E86002ACDCB /* Authenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Authenticator.swift; sourceTree = "<group>"; };
+		7041C3082C6F20BA002ACDCB /* JobsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsTableViewCell.swift; sourceTree = "<group>"; };
+		7041C30D2C6F51C0002ACDCB /* Colors++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors++.swift"; sourceTree = "<group>"; };
+		7041C3102C6F58B2002ACDCB /* JobDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewController.swift; sourceTree = "<group>"; };
+		7041C3122C6F58C2002ACDCB /* JobDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailViewModel.swift; sourceTree = "<group>"; };
+		7041C3142C6F5E16002ACDCB /* JobsRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsRequestModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7041C29D2C6B8DF5002ACDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041C2F52C6E0E1C002ACDCB /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041C2B32C6B8DF7002ACDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041C2BD2C6B8DF7002ACDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7041C2972C6B8DF5002ACDCB = {
+			isa = PBXGroup;
+			children = (
+				7041C2A22C6B8DF5002ACDCB /* Seek_Task */,
+				7041C2B92C6B8DF7002ACDCB /* Seek_TaskTests */,
+				7041C2C32C6B8DF7002ACDCB /* Seek_TaskUITests */,
+				7041C2A12C6B8DF5002ACDCB /* Products */,
+				7041C2F32C6E0E19002ACDCB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7041C2A12C6B8DF5002ACDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2A02C6B8DF5002ACDCB /* Seek_Task.app */,
+				7041C2B62C6B8DF7002ACDCB /* Seek_TaskTests.xctest */,
+				7041C2C02C6B8DF7002ACDCB /* Seek_TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7041C2A22C6B8DF5002ACDCB /* Seek_Task */ = {
+			isa = PBXGroup;
+			children = (
+				7041C30B2C6F2241002ACDCB /* Helpers */,
+				7041C30A2C6F222C002ACDCB /* Views */,
+				7041C3042C6F1E7C002ACDCB /* Auth */,
+				7041C2ED2C6E0D5C002ACDCB /* NetworkService */,
+				7041C2D52C6B8E30002ACDCB /* Coordinator */,
+				7041C2A32C6B8DF5002ACDCB /* AppDelegate.swift */,
+				7041C2A52C6B8DF5002ACDCB /* SceneDelegate.swift */,
+				7041C2AC2C6B8DF7002ACDCB /* Assets.xcassets */,
+				7041C2AE2C6B8DF7002ACDCB /* LaunchScreen.storyboard */,
+				7041C2B12C6B8DF7002ACDCB /* Info.plist */,
+			);
+			path = Seek_Task;
+			sourceTree = "<group>";
+		};
+		7041C2B92C6B8DF7002ACDCB /* Seek_TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2BA2C6B8DF7002ACDCB /* Seek_TaskTests.swift */,
+			);
+			path = Seek_TaskTests;
+			sourceTree = "<group>";
+		};
+		7041C2C32C6B8DF7002ACDCB /* Seek_TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2C42C6B8DF7002ACDCB /* Seek_TaskUITests.swift */,
+				7041C2C62C6B8DF7002ACDCB /* Seek_TaskUITestsLaunchTests.swift */,
+			);
+			path = Seek_TaskUITests;
+			sourceTree = "<group>";
+		};
+		7041C2D52C6B8E30002ACDCB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2D32C6B8E30002ACDCB /* MainCoordinating.swift */,
+				7041C2D42C6B8E30002ACDCB /* MainCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		7041C2D92C6B8E39002ACDCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2D82C6B8E39002ACDCB /* Color++.swift */,
+				7041C2E32C6B947C002ACDCB /* UIView++.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7041C2DD2C6B8E40002ACDCB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2FC2C6E3DD4002ACDCB /* Model */,
+				7041C2DB2C6B8E40002ACDCB /* LoginViewController.swift */,
+				7041C2DC2C6B8E40002ACDCB /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		7041C2E02C6B9394002ACDCB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2E12C6B93A0002ACDCB /* LoginTextField.swift */,
+				7041C2FF2C6F18F0002ACDCB /* Observable.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		7041C2E52C6E09AD002ACDCB /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2E62C6E09E3002ACDCB /* TabbarViewController.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		7041C2E82C6E0A25002ACDCB /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				7041C3072C6F20AE002ACDCB /* Cell */,
+				7041C3012C6F1B31002ACDCB /* Model */,
+				7041C2E92C6E0A33002ACDCB /* JobsViewController.swift */,
+				7041C2EB2C6E0BAD002ACDCB /* JobsViewModel.swift */,
+			);
+			path = Jobs;
+			sourceTree = "<group>";
+		};
+		7041C2ED2C6E0D5C002ACDCB /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2EE2C6E0D72002ACDCB /* NetworkServicing.swift */,
+				7041C2F02C6E0D8D002ACDCB /* NetworkService.swift */,
+				7041C2FA2C6E0F3E002ACDCB /* URLConfiguration.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		7041C2F32C6E0E19002ACDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7041C2FC2C6E3DD4002ACDCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7041C2FD2C6E3DDD002ACDCB /* LoginModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7041C3012C6F1B31002ACDCB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7041C3022C6F1B3A002ACDCB /* JobsModel.swift */,
+				7041C3142C6F5E16002ACDCB /* JobsRequestModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7041C3042C6F1E7C002ACDCB /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7041C3052C6F1E86002ACDCB /* Authenticator.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		7041C3072C6F20AE002ACDCB /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7041C3082C6F20BA002ACDCB /* JobsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7041C30A2C6F222C002ACDCB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7041C30F2C6F589C002ACDCB /* JobDetailViewController */,
+				7041C2DD2C6B8E40002ACDCB /* Login */,
+				7041C2E52C6E09AD002ACDCB /* Tabbar */,
+				7041C2E82C6E0A25002ACDCB /* Jobs */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7041C30B2C6F2241002ACDCB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7041C30C2C6F51B3002ACDCB /* Enums */,
+				7041C2D92C6B8E39002ACDCB /* Extensions */,
+				7041C2E02C6B9394002ACDCB /* Components */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7041C30C2C6F51B3002ACDCB /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				7041C30D2C6F51C0002ACDCB /* Colors++.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		7041C30F2C6F589C002ACDCB /* JobDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7041C3102C6F58B2002ACDCB /* JobDetailViewController.swift */,
+				7041C3122C6F58C2002ACDCB /* JobDetailViewModel.swift */,
+			);
+			path = JobDetailViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7041C29F2C6B8DF5002ACDCB /* Seek_Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041C2CA2C6B8DF7002ACDCB /* Build configuration list for PBXNativeTarget "Seek_Task" */;
+			buildPhases = (
+				7041C29C2C6B8DF5002ACDCB /* Sources */,
+				7041C29D2C6B8DF5002ACDCB /* Frameworks */,
+				7041C29E2C6B8DF5002ACDCB /* Resources */,
+				7041C2F92C6E0E1F002ACDCB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seek_Task;
+			packageProductDependencies = (
+				7041C2F42C6E0E1C002ACDCB /* Alamofire */,
+			);
+			productName = Seek_Task;
+			productReference = 7041C2A02C6B8DF5002ACDCB /* Seek_Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7041C2B52C6B8DF7002ACDCB /* Seek_TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041C2CD2C6B8DF7002ACDCB /* Build configuration list for PBXNativeTarget "Seek_TaskTests" */;
+			buildPhases = (
+				7041C2B22C6B8DF7002ACDCB /* Sources */,
+				7041C2B32C6B8DF7002ACDCB /* Frameworks */,
+				7041C2B42C6B8DF7002ACDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7041C2B82C6B8DF7002ACDCB /* PBXTargetDependency */,
+			);
+			name = Seek_TaskTests;
+			productName = Seek_TaskTests;
+			productReference = 7041C2B62C6B8DF7002ACDCB /* Seek_TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7041C2BF2C6B8DF7002ACDCB /* Seek_TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7041C2D02C6B8DF7002ACDCB /* Build configuration list for PBXNativeTarget "Seek_TaskUITests" */;
+			buildPhases = (
+				7041C2BC2C6B8DF7002ACDCB /* Sources */,
+				7041C2BD2C6B8DF7002ACDCB /* Frameworks */,
+				7041C2BE2C6B8DF7002ACDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7041C2C22C6B8DF7002ACDCB /* PBXTargetDependency */,
+			);
+			name = Seek_TaskUITests;
+			productName = Seek_TaskUITests;
+			productReference = 7041C2C02C6B8DF7002ACDCB /* Seek_TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7041C2982C6B8DF5002ACDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7041C29F2C6B8DF5002ACDCB = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7041C2B52C6B8DF7002ACDCB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7041C29F2C6B8DF5002ACDCB;
+					};
+					7041C2BF2C6B8DF7002ACDCB = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7041C29F2C6B8DF5002ACDCB;
+					};
+				};
+			};
+			buildConfigurationList = 7041C29B2C6B8DF5002ACDCB /* Build configuration list for PBXProject "Seek_Task" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7041C2972C6B8DF5002ACDCB;
+			packageReferences = (
+				7041C2F22C6E0DF0002ACDCB /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 7041C2A12C6B8DF5002ACDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7041C29F2C6B8DF5002ACDCB /* Seek_Task */,
+				7041C2B52C6B8DF7002ACDCB /* Seek_TaskTests */,
+				7041C2BF2C6B8DF7002ACDCB /* Seek_TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7041C29E2C6B8DF5002ACDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041C2AD2C6B8DF7002ACDCB /* Assets.xcassets in Resources */,
+				7041C2B02C6B8DF7002ACDCB /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041C2B42C6B8DF7002ACDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041C2BE2C6B8DF7002ACDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7041C29C2C6B8DF5002ACDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041C2FB2C6E0F3E002ACDCB /* URLConfiguration.swift in Sources */,
+				7041C3152C6F5E16002ACDCB /* JobsRequestModel.swift in Sources */,
+				7041C2EC2C6E0BAD002ACDCB /* JobsViewModel.swift in Sources */,
+				7041C2DE2C6B8E40002ACDCB /* LoginViewController.swift in Sources */,
+				7041C30E2C6F51C0002ACDCB /* Colors++.swift in Sources */,
+				7041C2A42C6B8DF5002ACDCB /* AppDelegate.swift in Sources */,
+				7041C2E42C6B947C002ACDCB /* UIView++.swift in Sources */,
+				7041C3032C6F1B3A002ACDCB /* JobsModel.swift in Sources */,
+				7041C3062C6F1E86002ACDCB /* Authenticator.swift in Sources */,
+				7041C3092C6F20BA002ACDCB /* JobsTableViewCell.swift in Sources */,
+				7041C2FE2C6E3DDD002ACDCB /* LoginModel.swift in Sources */,
+				7041C2A62C6B8DF5002ACDCB /* SceneDelegate.swift in Sources */,
+				7041C2DF2C6B8E40002ACDCB /* LoginViewModel.swift in Sources */,
+				7041C2F12C6E0D8D002ACDCB /* NetworkService.swift in Sources */,
+				7041C3132C6F58C2002ACDCB /* JobDetailViewModel.swift in Sources */,
+				7041C2DA2C6B8E39002ACDCB /* Color++.swift in Sources */,
+				7041C2D72C6B8E30002ACDCB /* MainCoordinator.swift in Sources */,
+				7041C2D62C6B8E30002ACDCB /* MainCoordinating.swift in Sources */,
+				7041C3002C6F18F0002ACDCB /* Observable.swift in Sources */,
+				7041C2E72C6E09E3002ACDCB /* TabbarViewController.swift in Sources */,
+				7041C2EA2C6E0A33002ACDCB /* JobsViewController.swift in Sources */,
+				7041C2E22C6B93A0002ACDCB /* LoginTextField.swift in Sources */,
+				7041C2EF2C6E0D72002ACDCB /* NetworkServicing.swift in Sources */,
+				7041C3112C6F58B2002ACDCB /* JobDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041C2B22C6B8DF7002ACDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041C2BB2C6B8DF7002ACDCB /* Seek_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7041C2BC2C6B8DF7002ACDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7041C2C52C6B8DF7002ACDCB /* Seek_TaskUITests.swift in Sources */,
+				7041C2C72C6B8DF7002ACDCB /* Seek_TaskUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7041C2B82C6B8DF7002ACDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7041C29F2C6B8DF5002ACDCB /* Seek_Task */;
+			targetProxy = 7041C2B72C6B8DF7002ACDCB /* PBXContainerItemProxy */;
+		};
+		7041C2C22C6B8DF7002ACDCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7041C29F2C6B8DF5002ACDCB /* Seek_Task */;
+			targetProxy = 7041C2C12C6B8DF7002ACDCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7041C2AE2C6B8DF7002ACDCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7041C2AF2C6B8DF7002ACDCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7041C2C82C6B8DF7002ACDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7041C2C92C6B8DF7002ACDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7041C2CB2C6B8DF7002ACDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Seek_Task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salman.Seek-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7041C2CC2C6B8DF7002ACDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Seek_Task/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salman.Seek-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7041C2CE2C6B8DF7002ACDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salman.Seek-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seek_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seek_Task";
+			};
+			name = Debug;
+		};
+		7041C2CF2C6B8DF7002ACDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salman.Seek-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Seek_Task.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Seek_Task";
+			};
+			name = Release;
+		};
+		7041C2D12C6B8DF7002ACDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salman.Seek-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seek_Task;
+			};
+			name = Debug;
+		};
+		7041C2D22C6B8DF7002ACDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Salman.Seek-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Seek_Task;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7041C29B2C6B8DF5002ACDCB /* Build configuration list for PBXProject "Seek_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041C2C82C6B8DF7002ACDCB /* Debug */,
+				7041C2C92C6B8DF7002ACDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041C2CA2C6B8DF7002ACDCB /* Build configuration list for PBXNativeTarget "Seek_Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041C2CB2C6B8DF7002ACDCB /* Debug */,
+				7041C2CC2C6B8DF7002ACDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041C2CD2C6B8DF7002ACDCB /* Build configuration list for PBXNativeTarget "Seek_TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041C2CE2C6B8DF7002ACDCB /* Debug */,
+				7041C2CF2C6B8DF7002ACDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7041C2D02C6B8DF7002ACDCB /* Build configuration list for PBXNativeTarget "Seek_TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7041C2D12C6B8DF7002ACDCB /* Debug */,
+				7041C2D22C6B8DF7002ACDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7041C2F22C6E0DF0002ACDCB /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7041C2F42C6E0E1C002ACDCB /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7041C2F22C6E0DF0002ACDCB /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7041C2982C6B8DF5002ACDCB /* Project object */;
+}
