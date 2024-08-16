@@ -14,7 +14,7 @@ Pay more attention to detail and quality, rather than finishing as many tasks as
 
 Use a source code management strategy that serves the purpose for submission. (For example via github repository)
 
-Requirements
+<b>Requirements</b>
 
 Add a login screen to authenticate a user with the application
 Needed Input fields: Username & Password and a Button
@@ -36,11 +36,11 @@ Helpful Resources
 
 Colors: /design/ColorDesign.png Fonts: /design/TextDesign.png
 
-App (iOS)
+<b>App (iOS)</b>
 
 This iOS project is developed using Swift and follows the Model-View-ViewModel-Coordinator (MVVM-C) design pattern to separate the presentation logic from the business logic. Coroutines are also used to perform asynchronous operations in a more efficient and readable manner. The Material Design framework is used for the UI components, providing a modern and consistent look and feel. In addition, Hilt-Dagger is used as a dependency injection framework to manage the app's dependencies. The project also integrates GraphQL, a powerful query language for APIs
 
-Prerequisites
+<b>Prerequisites</b>
 
 Download Xcode
 Run
@@ -54,7 +54,7 @@ Backend
 
 A basic backend implementation have been provided in the attached backend folder with a GraphQL -> NodeJS Rest API -> MongoDB setup. /Users/st/Downloads/seekmax-mobile-assessment-main/backend/docker-compose.yaml The backend can be ran through docker.
 
-Prerequisites
+<b>Prerequisites</b>
 
 Install Docker and docker-compose
 Run
