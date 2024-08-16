@@ -1,6 +1,6 @@
-Tasks
+<b>Tasks</b>
 
-Scenario
+<b>Scenario</b>
 
 At Seek Asia we want to re haul our candidate experience for Job Applications. Your team is tasked to build a mobile app (iOS or Android) (it is up to you which framworks, languages etc you want to use) to connect to an already existing Backend.
 
